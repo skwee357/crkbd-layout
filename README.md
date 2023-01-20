@@ -5,7 +5,7 @@ revision: "1.0.0"
 ---
 
 # Ergonomic keyboard layout design
-[[media/keyboard-layout.png]]
+![layout](media/keyboard-layout.png)
 
 [keyboard-layout-editor json](media/keyboard-layout.json)
 
@@ -25,7 +25,7 @@ Create an ergonomic keyboard layout design with the following goals:
     2. Arrangement of numbers and symbols rows
 
 ## Board, switches, and key caps
-* PCB - Corne ([crkbd](https://github.com/foostan/crkbd)) 3x6+3
+* PCB - Corne ([crkbd](https://github.com/foostan/crkbd)) 3×6+3
 * Switches - MX hot-swappable
     * Alpha keys (excluding pinky finger), space, and enter keys - Boba U4 tactile 68g - 26 total
     * Pinky alpha keys, and tap-able modifiers - Boba U4 tactile 62g - 10 total
@@ -51,31 +51,36 @@ Dual shift for proper capitalization by the opposite hand. Both shifts act as a 
 on double tap.
 
 #### Escape key
-Standalone caps lock key is removed in favor of a dual function key: `esc` on tap, MacOS option (`⌥`) on hold.
+Standalone caps lock key is removed in favor of a dual function key: `esc` on tap, MacOS control (`⌃`) on hold.
 
-### Raise layer
+### Lower layer
 Optimized for numbers and symbols. Contain standard number row on home row, and standard symbol row above the number
 row. Have dedicated math symbols such as addition, subtraction, division, and equality. Also contains dedicated delete
 key instead of backspace.
 
-### Lower layer
-Optimized for programming. Contains `vim` style navigation on `mnei` (to retain `hjkl` muscle memory), as well as coding
-symbols like pipe (`|`), tilde (`~`) is located on `tab` as in many 60% keyboards, backtick (`\``) on `Z`, as well as curly braces (`{}`) and square brackets
-(`[]`) on dedicated index fingers as they are used widely.
+### Raise layer
+Optimized for programming. Contains `vim` style navigation on `mnei` (to retain `hjkl` muscle memory), as well as
+allowing single hand navigation. Widely used symbols such as pipe (`|`), tilde (`~`), backslash (`\`) and backtick (\`) - are dedicated.
+Support for curly braces (`{}`) and square braces (`[]`) on dedicated index fingers as they are used widely.
 
-The pipe and backslash are reversed from traditional keyboard. Pipe is default, while backslash is under shift.
+Tilde is on tab because many 60% keyboard put it there.
 
-Audio controls are under the left hand home row, for fast play/pause and navigation.
+Backtick is on `Z` because there is a variation of the Apple Magic Keyboard where the backtick is between left shift and
+`Z`.
 
 ## What's missing?
+* Find a good combo for em-dash (`—`) and en-dash (`–`)
 * RGB controls
+* Audio controls
 * F keys
 * `PgUp`, `PgDown`, `Home`, and `End` keys
 * Dedicated `Hyper` key
 * Dedicated mouse keys
-* `Ctrl` key on a layer to allow `Command+Option+Control` style shortcuts (might be solved with Hyper key)
+* Find a way to have complex shortcuts which include all 3 modifiers - `Command+Option+Control` (might be solved with
+    Hyper key)
+* Allocate one thumb key for languages switching (to Russian and Hebrew) on double tap (similar to the MacOS Globe Key)
 
 ## Acknowledgements
 This layout was created for my needs. I'll continue to optimize it to suit my needs. It might not be suited for you.
 Feel free to adopt and modify it according to your needs. If you find a better layout, I'd appreciate if you will share it
-with me as well [contact[at]yieldcode.blog](mailto:contact@yieldcode.blog).
+with me as well [contact[at]kudmitry.com](mailto:contact@kudmitry.com).
