@@ -1,6 +1,6 @@
 ---
 status: draft
-last_update: 2023-01-20T18:22:00+02:00
+last_update: 2023-01-20T20:39:00+02:00
 revision: "1.0.0"
 ---
 
@@ -44,7 +44,7 @@ Colemak Mod DH. 3 Layers - base, lower, raise
 ### Base layer
 Optimized for writing. Contains alpha keys, punctuation (dot and comma), quotes (single and double) as well as question
 mark. Exclamation mark is on a layer. It's not great, but it's behind shift on a regular keyboard as well.
-The only problem is that dash (`-`) is not there and is behind a layer.
+The only problem is that hyphen (`-`) is not there and is behind a layer.
 
 #### Dual shift
 Dual shift for proper capitalization by the opposite hand. Both shifts act as a shift on hold, and permanent caps lock
@@ -69,10 +69,10 @@ Backtick is on `Z` because there is a variation of the Apple Magic Keyboard wher
 `Z`.
 
 ## What's missing?
-* Find a good combo for em-dash (`—`) and en-dash (`–`)
+* Find a good combo for em-dash (`—`) and en-dash (`–`), as well as ellipsis (`…`). Maybe add Compose key?
+    * Find a good combo for ≥ and ≤. Do I really need them? It could improve my writings.
 * RGB controls
 * Audio controls
-* F keys
 * `PgUp`, `PgDown`, `Home`, and `End` keys
 * Dedicated `Hyper` key
 * Dedicated mouse keys
