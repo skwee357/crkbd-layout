@@ -55,8 +55,7 @@ Standalone caps lock key is removed in favor of a dual function key: `esc` on ta
 
 ### Lower layer
 Optimized for numbers and symbols. Contain standard number row on home row, and standard symbol row above the number
-row. Have dedicated math symbols such as addition, subtraction, division, and equality. Also contains dedicated delete
-key instead of backspace.
+row. Have dedicated math symbols such as addition, subtraction, division, and equality.
 
 ### Raise layer
 Optimized for programming. Contains `vim` style navigation on `mnei` (to retain `hjkl` muscle memory), as well as
