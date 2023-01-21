@@ -42,7 +42,7 @@ Create an ergonomic keyboard layout design with the following goals:
 Colemak Mod DH. 3 Layers - base, lower, raise
 
 ### Base layer
-Optimized for writing. Contains alpha keys, punctuation (dot and comma), quotes (single and double) as well as question
+Optimized for writing. Standard Colemak-DH layout. Contains alpha keys, punctuation (dot and comma), quotes (single and double) as well as question
 mark. Exclamation mark is on a layer. It's not great, but it's behind shift on a regular keyboard as well.
 The only problem is that hyphen (`-`) is not there and is behind a layer.
 
@@ -52,6 +52,9 @@ on double tap.
 
 #### Escape key
 Standalone caps lock key is removed in favor of a dual function key: `esc` on tap, MacOS control (`⌃`) on hold.
+
+I don't like control key being there, because it limits the pinky shortcuts such as `Control+Q`, `Control+A`,
+`Control+Z`, `Control+1`. Ideally I'd like to move it to a thumb key.
 
 ### Lower layer
 Optimized for numbers and symbols. Contain standard number row on home row, and standard symbol row above the number
@@ -68,16 +71,19 @@ Backtick is on `Z` because there is a variation of the Apple Magic Keyboard wher
 `Z`.
 
 ## What's missing?
+* Find a better place for `Control ⌃` key as it limits some pinky related shortcuts.
 * Find a good combo for em-dash (`—`) and en-dash (`–`), as well as ellipsis (`…`). Maybe add Compose key?
     * Find a good combo for ≥ and ≤. Do I really need them? It could improve my writings.
 * RGB controls
 * Audio controls
-* `PgUp`, `PgDown`, `Home`, and `End` keys
+* Dedicated `PgUp`, `PgDown`, `Home`, and `End` keys
 * Dedicated `Hyper` key
 * Dedicated mouse keys
 * Find a way to have complex shortcuts which include all 3 modifiers - `Command+Option+Control` (might be solved with
     Hyper key)
 * Allocate one thumb key for languages switching (to Russian and Hebrew) on double tap (similar to the MacOS Globe Key)
+* `Command+Space` which is used in MacOS to open the launcher/Alfred/Raycast - is not that easy to press. Solution could
+    be to change it to `Option+Space` which I now use for language switching.
 
 ## Acknowledgements
 This layout was created for my needs. I'll continue to optimize it to suit my needs. It might not be suited for you.
