@@ -30,7 +30,7 @@ Create an ergonomic keyboard layout design with the following goals:
     * Alpha keys (excluding pinky finger), space, and enter keys - Boba U4 tactile 68g - 26 total
     * Pinky alpha keys, and tap-able modifiers - Boba U4 tactile 62g - 10 total
     * Pinky and thumb hold-able modifiers - Boba gum 62g linear - 6 total
-* Key caps - SA Profile, blanks
+* Key caps - OEM Profile, blanks
     * Q Row - R3 1U - 12 total
     * A Row - R2 1U - 12 total
     * Z Row - R1 1U - 12 total
